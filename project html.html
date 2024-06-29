@@ -1,0 +1,126 @@
+<style>
+    /* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the navigation bar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Removing default list styles */
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Styling the navigation items */
+.nav-item {
+    flex: 1;
+}
+
+/* Styling the navigation links */
+.nav-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Hover effect for navigation links */
+.nav-link:hover {
+    background-color: #575757;
+    color: white;
+}
+
+</style>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Navigation Bar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="project html.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="Service.html" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodegradable Waste Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Biodegradable Waste Management</h1>
+    </header>
+    
+    <section id="description">
+        <h2>Types of Biodegradable Waste We Accept</h2>
+        <div class="waste-type">
+            <img src="food wastage.jpg" alt="Food Waste" width="600" height="400">
+            <h3>Food Waste</h3>
+            <p>Includes fruit and vegetable scraps, coffee grounds, and other kitchen waste.</p>
+        </div>
+        <div class="waste-type">
+            <img src="decorative wastage.jpg" alt="Decorative Waste" width="600" height="400">
+            <h3>Garden Waste</h3>
+            <p>Includes grass clippings, leaves, branches, and other organic garden waste.</p>
+        </div>
+        <div class="waste-type">
+            <img src="clotes wastage.jpg" alt="Cloth Waste" width="600" height="400">
+            <h3>Cloth Waste</h3>
+            <p>Includes newspapers, cardboard, and other paper products that are not heavily inked or coated.</p>
+        </div>
+        <div class="background"></div>
+    </section>
+    
+    <section id="contact-form">
+        <h2>Schedule a Pickup</h2>
+        <form action="submit.html" method="post">
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+            
+            <label for="quantity">Quantity (in kg):</label>
+            <input type="number" id="quantity" name="quantity" required>
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Biodegradable Waste Management. All rights reserved.</p>
+    </footer>
+</body>
+</html>

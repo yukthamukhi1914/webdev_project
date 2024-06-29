@@ -1,0 +1,8 @@
+/your-project-folder
+    /images
+        food-waste.jpg
+        garden-waste.jpg
+        paper-waste.jpg
+    index.html
+    styles.css
+    script.js
